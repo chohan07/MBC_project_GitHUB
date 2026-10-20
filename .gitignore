@@ -1,0 +1,25 @@
+
+# Node.js 라이브러리
+node_modules/
+
+# 환경변수 및 비밀키
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python 임시 파일
+__pycache__/
+.venv/
+
+# 기타
+.DS_Store
+Thumbs.db
+
+# 로컬 데이터베이스
+Joseon_Time/joseon.db
+
+# 완성 영상 및 대용량 영상 파일
+*.mp4
+*.mov
+*.avi

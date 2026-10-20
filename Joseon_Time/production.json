@@ -1,0 +1,208 @@
+{
+  "project": {
+    "name": "Korean Culture Shorts",
+    "episode": 32,
+    "title_kr": "조선시대 사람들은 시간을 어떻게 알았을까?",
+    "title_en": "How Did People in the Joseon Dynasty Tell Time?",
+    "category": "Korean Culture / History & Science",
+    "duration_seconds": 60,
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30
+  },
+  "narration": {
+    "korean": "600년 전 조선시대 사람들은 시계도 없이 어떻게 정확한 시간을 알았을까요? 오늘날 우리는 스마트폰을 보면 그만이지만, 조선시대에는 놀랍도록 발전된 시간 시스템이 있었습니다. 낮에는 번화가 길거리에 설치된 오목한 솥 모양의 해시계, '앙부일구'를 확인했습니다. 한자를 모르는 백성들을 위해 12지신 동물 그림을 그려 넣어 누구나 쉽게 시각을 읽을 수 있었죠. 흐린 날이나 밤에는 자동 물시계인 '자격루'가 시간을 책임졌습니다. 세종대왕과 장영실이 만든 이 장치는 물이 차오르면 쇠구슬이 굴러 나무 인형이 북과 종을 자동으로 쳐서 시간을 알렸습니다. 측정된 시간은 도성의 큰 종각으로 전해져 성문이 열리고 닫히는 종소리로 울려 퍼지며 온 백성의 하루 기준이 되었습니다. 그렇다면 종소리가 울려 야간 통행금지가 시작되면 조선 사람들은 밤거리를 다닐 수 있었을까요?",
+    "english": "How did ancient Koreans tell exact time 600 years ago without modern clocks? Today, we simply glance at our phones, but Joseon Dynasty Koreans had a surprisingly advanced system. During the daytime, people checked Angbuilgu, a public sundial shaped like a concave cauldron placed in busy streets. It even featured animal drawings of the zodiac so ordinary people who couldn't read Hanja could easily tell the hour. On cloudy days or at night, the automatic water clock Jagyeongnu took over. Invented by King Sejong and Jang Yeong-sil, rising water triggered iron balls that prompted mechanical wooden figures to strike drums and bells precisely on time. This precise time was relayed across the capital by the grand bell pavilion, signaling the opening and closing of city gates and guiding daily routines. Then, could Joseon citizens freely walk the streets once the curfew bell rang at night?"
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "duration_seconds": 4,
+      "narration_kr": "600년 전 조선시대 사람들은 시계도 없이 어떻게 정확한 시간을 알았을까요?",
+      "narration_en": "How did ancient Koreans tell exact time 600 years ago without modern clocks?",
+      "subtitle_kr": "시계 없던 600년 전 조선, 시간은 어떻게 알았을까?",
+      "subtitle_en": "How did ancient Koreans tell time without clocks?",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic realistic historical photography, Joseon dynasty Korean street in Hanyang, ordinary commoners in weathered linen hanbok and scholars wearing black gat hats pausing their walk and looking up at the sky curiously, photorealistic, dusty historical atmosphere, muted earthy and sepia tones, realistic facial expressions, detailed fabric wrinkles and textures, overcast soft sunlight, cinematic documentary still, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Midjourney",
+        "prompt": ""
+      },
+      "capcut": {
+        "effect": "SLOW_ZOOM",
+        "transition": "Cut",
+        "sfx": "Deep temple bell chime + Street ambient murmur"
+      }
+    },
+    {
+      "scene": 2,
+      "duration_seconds": 6,
+      "narration_kr": "오늘날 우리는 스마트폰을 보면 그만이지만, 조선시대에는 놀랍도록 발전된 시간 시스템이 있었습니다.",
+      "narration_en": "Today, we simply glance at our phones, but Joseon Dynasty Koreans had a surprisingly advanced system.",
+      "subtitle_kr": "스마트폰 없이도 정밀했던 조선의 시간 시스템",
+      "subtitle_en": "Joseon had a surprisingly advanced time system",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic realistic historical photography, bustling Joseon street marketplace in Joseon Dynasty Korea, group of Korean commoners, merchants in rough cotton coats, and scholars in dopo gathered around a public stone pedestal holding a bronze concave sundial Angbuilgu, authentic Korean hanok village market background, desaturated earthy color palette, detailed realistic faces with headbands, dynamic crowd interaction, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Google Flow",
+        "prompt": "Preserve the gathered Korean crowd, traditional clothing, and the bronze sundial on the pedestal. Add slow natural motion of commoners leaning in slightly to inspect the dial and subtle dust motes floating in the ambient sunlight. Smooth slow cinematic camera push-in, realistic physics, no distortion."
+      },
+      "capcut": {
+        "effect": "SLOW_PUSH",
+        "transition": "Cut",
+        "sfx": "Crowd murmur + Wind breeze"
+      }
+    },
+    {
+      "scene": 3,
+      "duration_seconds": 7,
+      "narration_kr": "낮에는 번화가 길거리에 설치된 오목한 솥 모양의 해시계, '앙부일구'를 확인했습니다.",
+      "narration_en": "During the daytime, people checked Angbuilgu, a public sundial shaped like a concave cauldron placed in busy streets.",
+      "subtitle_kr": "낮의 길거리 공공 해시계, 앙부일구(仰釜日晷)",
+      "subtitle_en": "Angbuilgu: The public sundial cauldron",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "macro cinematic photography, Joseon Dynasty bronze concave sundial Angbuilgu resting on a carved granite stone pedestal, authentic aged bronze surface with silver inlay lines, sharp needle casting a clear slender shadow inside the bowl, warm soft directional sunlight, shallow depth of field, museum artifact aesthetic in realistic outdoor courtyard, highly detailed metal patina, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Midjourney",
+        "prompt": ""
+      },
+      "capcut": {
+        "effect": "PAN_RIGHT",
+        "transition": "Cut",
+        "sfx": "Subtle metallic click + Soft whoosh"
+      }
+    },
+    {
+      "scene": 4,
+      "duration_seconds": 8,
+      "narration_kr": "한자를 모르는 백성들을 위해 12지신 동물 그림을 그려 넣어 누구나 쉽게 시각을 읽을 수 있었죠.",
+      "narration_en": "It even featured animal drawings of the zodiac so ordinary people who couldn't read Hanja could easily tell the hour.",
+      "subtitle_kr": "글을 몰라도 OK! 12지신 동물 그림 시계판",
+      "subtitle_en": "Visual zodiac animals for illiterate commoners",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "extreme close-up shot, engraved Joseon style zodiac animal illustrations rat, ox, tiger delicately carved along the rim of an ancient bronze sundial, weathered Korean commoner peasant hand gently pointing near the line, authentic skin texture and rough sleeve, warm sunlight accentuating bronze engravings, photorealistic cultural history storytelling, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Midjourney",
+        "prompt": ""
+      },
+      "capcut": {
+        "effect": "CLOSEUP",
+        "transition": "Cut",
+        "sfx": "Soft chime resonance + Warm breeze"
+      }
+    },
+    {
+      "scene": 5,
+      "duration_seconds": 8,
+      "narration_kr": "흐린 날이나 밤에는 자동 물시계인 '자격루'가 시간을 책임졌습니다.",
+      "narration_en": "On cloudy days or at night, the automatic water clock Jagyeongnu took over.",
+      "subtitle_kr": "밤과 흐린 날을 책임진 자동 물시계 자격루",
+      "subtitle_en": "Jagyeongnu: The automatic water clock",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic realistic photography, Joseon royal astronomical chamber Borugak at night, massive bronze water jars Buho of Jagyeongnu water clock dripping steady water, intricate ancient Korean wooden gears and mechanical copper tubes, mysterious deep indigo shadows with warm golden lantern glow, historic royal scientific mystery, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Google Flow",
+        "prompt": "Keep the ancient water clock machinery, dark Joseon palace room, and lantern lighting stable. Show continuous, realistic water trickling from the upper bronze jar into the lower cylinder, with subtle glowing water droplets reflecting golden lantern light. Slow cinematic tilt-down movement, realistic fluid physics."
+      },
+      "capcut": {
+        "effect": "SLOW_PUSH",
+        "transition": "Dissolve",
+        "sfx": "Water dripping echo + Mechanical gear click"
+      }
+    },
+    {
+      "scene": 6,
+      "duration_seconds": 12,
+      "narration_kr": "세종대왕과 장영실이 만든 이 장치는 물이 차오르면 쇠구슬이 굴러 나무 인형이 북과 종을 자동으로 쳐서 시간을 알렸습니다.",
+      "narration_en": "Invented by King Sejong and Jang Yeong-sil, rising water triggered iron balls that prompted mechanical wooden figures to strike drums and bells precisely on time.",
+      "subtitle_kr": "쇠구슬이 굴러 나무 인형이 스스로 종을 치다",
+      "subtitle_en": "Iron balls rolling, wooden figures striking bells",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic dynamic macro shot of Jagyeongnu automatic mechanism, authentic Joseon wooden mechanical figurine wearing miniature traditional court robes striking a small bronze bell with a wooden mallet, polished metal balls rolling along carved wooden rails, dramatic chiaroscuro lighting, intricate 15th-century Korean scientific automation, photorealistic, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Google Flow",
+        "prompt": "Preserve the mechanical wooden figurine and the bronze bell. Create a precise, realistic motion of the wooden figure striking the bronze bell with its wooden mallet, followed by subtle natural vibration of the bell and soft smoke/dust shifting in the lantern beam. Cinematic restrained motion, authentic physics."
+      },
+      "capcut": {
+        "effect": "MACRO_ZOOM",
+        "transition": "Cut",
+        "sfx": "Clock gear tick + Resonant bronze bell chime + Drum thump"
+      }
+    },
+    {
+      "scene": 7,
+      "duration_seconds": 9,
+      "narration_kr": "측정된 시간은 도성의 큰 종각으로 전해져 성문이 열리고 닫히는 종소리로 울려 퍼지며 온 백성의 하루 기준이 되었습니다.",
+      "narration_en": "This precise time was relayed across the capital by the grand bell pavilion, signaling the opening and closing of city gates and guiding daily routines.",
+      "subtitle_kr": "도성의 종소리로 백성 모두가 시간을 공유하다",
+      "subtitle_en": "City bells shared time with every citizen",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic historical photography, dawn mist rising over ancient Hanyang city, Joseon Dynasty royal bell pavilion Bosingak with officials striking a massive ancient Korean bronze temple bell with a heavy suspended log log battering ram, in background the large castle gate Sungnyemun opening as commoners in linen garments walk through, epic cinematic lighting, cool blue morning tones blending with warm torches, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Midjourney",
+        "prompt": ""
+      },
+      "capcut": {
+        "effect": "ZOOM_OUT",
+        "transition": "Dissolve",
+        "sfx": "Deep roaring Korean bronze bell strike + Distant city morning sounds"
+      }
+    },
+    {
+      "scene": 8,
+      "duration_seconds": 6,
+      "narration_kr": "그렇다면 종소리가 울려 야간 통행금지가 시작되면 조선 사람들은 밤거리를 다닐 수 있었을까요?",
+      "narration_en": "Then, could Joseon citizens freely walk the streets once the curfew bell rang at night?",
+      "subtitle_kr": "다음 편: 통금 종이 울리면 조선의 밤거리는 어떻게 변했을까?",
+      "subtitle_en": "Next: What happened when the curfew bell rang at night?",
+      "image": {
+        "tool": "Midjourney",
+        "prompt": "cinematic realistic teaser photography, pitch black Joseon Dynasty nighttime alley along a stone fortress wall, Joseon night patrol guards Sunragun wearing military robes and headbands holding burning fire torches illuminating the dark cobblestone street, heavy wooden fortress gate firmly locked, tense historical mystery atmosphere, flickering flame light and deep shadows, photorealistic, vertical composition --ar 9:16 --no text, subtitles, watermark, logo"
+      },
+      "video": {
+        "tool": "Midjourney",
+        "prompt": ""
+      },
+      "capcut": {
+        "effect": "SLOW_ZOOM_FREEZE",
+        "transition": "Fade Out",
+        "sfx": "Night crickets + Heavy wooden door slam thud + Suspense bell chime"
+      }
+    }
+  ],
+  "bgm": {
+    "mood": "CURIOUS",
+    "recommended_track": "CURIOUS_HISTORICAL",
+    "volume_percent": 25
+  },
+  "tts": {
+    "tool": "Vrew",
+    "voice_kr": "",
+    "voice_en": "",
+    "speed": 1.0
+  },
+  "capcut": {
+    "template": "KOREAN_SHORTS_MASTER",
+    "subtitle_style": "DEFAULT",
+    "english_subtitle": true,
+    "korean_subtitle": true
+  },
+  "output": {
+    "folder_name": "EP32_조선시대_사람들은_시간을_어떻게_알았을까",
+    "final_filename": "EP32_Joseon_Time_System.mp4"
+  }
+}

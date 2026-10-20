@@ -1,0 +1,8 @@
+[SC01] Duration: 4s | Effect: SLOW_ZOOM | Transition: Cut | SFX: Deep temple bell chime + Street ambient murmur
+[SC02] Duration: 6s | Effect: SLOW_PUSH | Transition: Cut | SFX: Crowd murmur + Wind breeze
+[SC03] Duration: 7s | Effect: PAN_RIGHT | Transition: Cut | SFX: Subtle metallic click + Soft whoosh
+[SC04] Duration: 8s | Effect: CLOSEUP | Transition: Cut | SFX: Soft chime resonance + Warm breeze
+[SC05] Duration: 8s | Effect: SLOW_PUSH | Transition: Dissolve | SFX: Water dripping echo + Mechanical gear click
+[SC06] Duration: 12s | Effect: MACRO_ZOOM | Transition: Cut | SFX: Clock gear tick + Resonant bronze bell chime + Drum thump
+[SC07] Duration: 9s | Effect: ZOOM_OUT | Transition: Dissolve | SFX: Deep roaring Korean bronze bell strike + Distant city morning sounds
+[SC08] Duration: 6s | Effect: SLOW_ZOOM_FREEZE | Transition: Fade Out | SFX: Night crickets + Heavy wooden door slam thud + Suspense bell chime

@@ -1,0 +1,7 @@
+source_id,title,type,url,verification_status,notes
+R01,앙부일구 국가유산 디지털서비스,WEB,https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13914999238081009081&ctptNo=1121121590000,verified,"1434년 최초 제작, 해당 유물은 1713년 이후 추정"
+R02,앙부일구 국가유산 포털,WEB,https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaKdcd=12&ccbaAsno=08450000&ccbaCtcd=11,needs_review,유물 설명 확인
+R03,MBC 뉴스 자격루 복원 2007-11-21,WEB,https://imnews.imbc.com/replay/2007/nwdesk/article/2095478_30657.html,verified,복원 기사
+R04,KBS 영상한국사 자격루,VIDEO,https://www.youtube.com/watch?v=KCPoo6FRVkA,needs_review,영상 원문 확인
+R05,한국민족문화대백과사전 자격루,WEB,https://encykorea.aks.ac.kr/Article/E0047854,verified,자동 시보 구조
+R06,한국민족문화대백과사전 파루,WEB,https://encykorea.aks.ac.kr/Article/E0059560,verified,인정 파루

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국은 왜?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 사이드바 Navigation -->
+  <aside>
+    <div class="logo">✨ 한국은 왜?</div>
+    <div class="nav-menu">
+      <div class="category-group">
+        <div class="category-title" onclick="filterBySub('All', event, true)">
+          <span>전체보기</span>
+        </div>
+      </div>
+
+      <!-- Ⅰ. 한국인을 이해하기 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅰ. 한국인을 이해하기')">
+          <span>Ⅰ. 한국인을 이해하기</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.01', event)">EP.01 나이 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.02', event)">EP.02 팁 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.03', event)">EP.03 반찬 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.04', event)">EP.04 김치 선호</li>
+          <li class="sub-item" onclick="filterBySub('EP.05', event)">EP.05 신발 벗기</li>
+          <li class="sub-item" onclick="filterBySub('EP.06', event)">EP.06 24시 편의점</li>
+          <li class="sub-item" onclick="filterBySub('EP.07', event)">EP.07 빠른 배달</li>
+          <li class="sub-item" onclick="filterBySub('EP.08', event)">EP.08 두 손 전달 예절</li>
+          <li class="sub-item" onclick="filterBySub('EP.09', event)">EP.09 학원 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.10', event)">EP.10 수능 날 분위기</li>
+          <li class="sub-item" onclick="filterBySub('EP.11', event)">EP.11 서울의 산</li>
+          <li class="sub-item" onclick="filterBySub('EP.12', event)">EP.12 삼겹살 쌈</li>
+          <li class="sub-item" onclick="filterBySub('EP.13', event)">EP.13 생일 미역국</li>
+          <li class="sub-item" onclick="filterBySub('EP.14', event)">EP.14 파전과 막걸리</li>
+          <li class="sub-item" onclick="filterBySub('EP.15', event)">EP.15 집들이 휴지</li>
+          <li class="sub-item" onclick="filterBySub('EP.16', event)">EP.16 숫자 4 기피</li>
+          <li class="sub-item" onclick="filterBySub('EP.17', event)">EP.17 아파트 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.18', event)">EP.18 한강 라면</li>
+          <li class="sub-item" onclick="filterBySub('EP.19', event)">EP.19 한글 창제</li>
+          <li class="sub-item" onclick="filterBySub('EP.20', event)">EP.20 한국의 발전사</li>
+        </ul>
+      </div>
+
+      <!-- Ⅱ. 음식과 한국인의 식생활 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅱ. 음식과 식생활')">
+          <span>Ⅱ. 음식과 식생활</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.21', event)">EP.21 존댓말 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.22', event)">EP.22 식사 순서 예절</li>
+          <li class="sub-item" onclick="filterBySub('EP.23', event)">EP.23 음주 예절</li>
+          <li class="sub-item" onclick="filterBySub('EP.24', event)">EP.24 김치냉장고</li>
+          <li class="sub-item" onclick="filterBySub('EP.25', event)">EP.25 온돌 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.26', event)">EP.26 서울의 궁궐</li>
+          <li class="sub-item" onclick="filterBySub('EP.27', event)">EP.27 식후 카페</li>
+          <li class="sub-item" onclick="filterBySub('EP.28', event)">EP.28 축의금 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.29', event)">EP.29 빨리빨리</li>
+          <li class="sub-item" onclick="filterBySub('EP.30', event)">EP.30 등산 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.31', event)">EP.31 빨간 김치</li>
+          <li class="sub-item" onclick="filterBySub('EP.32', event)">EP.32 리필 반찬</li>
+          <li class="sub-item" onclick="filterBySub('EP.33', event)">EP.33 테이블 벨</li>
+          <li class="sub-item" onclick="filterBySub('EP.34', event)">EP.34 밥과 국</li>
+          <li class="sub-item" onclick="filterBySub('EP.35', event)">EP.35 숟가락 사용</li>
+        </ul>
+      </div>
+
+      <!-- Ⅲ. 예절·인간관계 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅲ. 예절·인간관계')">
+          <span>Ⅲ. 예절·인간관계</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.36', event)">EP.36 쇠젓가락</li>
+          <li class="sub-item" onclick="filterBySub('EP.37', event)">EP.37 술 따르기 예절</li>
+          <li class="sub-item" onclick="filterBySub('EP.38', event)">EP.38 호칭 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.39', event)">EP.39 나이 서열</li>
+          <li class="sub-item" onclick="filterBySub('EP.40', event)">EP.40 방문 선물</li>
+          <li class="sub-item" onclick="filterBySub('EP.41', event)">EP.41 이사 떡</li>
+          <li class="sub-item" onclick="filterBySub('EP.42', event)">EP.42 과일 깎기</li>
+          <li class="sub-item" onclick="filterBySub('EP.43', event)">EP.43 시험 엿 선물</li>
+          <li class="sub-item" onclick="filterBySub('EP.44', event)">EP.44 시험 미역국 기피</li>
+          <li class="sub-item" onclick="filterBySub('EP.45', event)">EP.45 홀수 축의금</li>
+          <li class="sub-item" onclick="filterBySub('EP.46', event)">EP.46 장례식 검은 옷</li>
+          <li class="sub-item" onclick="filterBySub('EP.47', event)">EP.47 명절 귀성길</li>
+          <li class="sub-item" onclick="filterBySub('EP.48', event)">EP.48 선물 수량</li>
+          <li class="sub-item" onclick="filterBySub('EP.49', event)">EP.49 사진 V 포즈</li>
+          <li class="sub-item" onclick="filterBySub('EP.50', event)">EP.50 잘 먹겠습니다</li>
+        </ul>
+      </div>
+
+      <!-- Ⅳ. 한국인의 일상 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅳ. 한국인의 일상')">
+          <span>Ⅳ. 한국인의 일상</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.51', event)">EP.51 편의점 서비스</li>
+          <li class="sub-item" onclick="filterBySub('EP.52', event)">EP.52 무인점포</li>
+          <li class="sub-item" onclick="filterBySub('EP.53', event)">EP.53 카공족</li>
+          <li class="sub-item" onclick="filterBySub('EP.54', event)">EP.54 배달 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.55', event)">EP.55 문 앞 배달</li>
+          <li class="sub-item" onclick="filterBySub('EP.56', event)">EP.56 고층 아파트</li>
+          <li class="sub-item" onclick="filterBySub('EP.57', event)">EP.57 산과 아파트</li>
+          <li class="sub-item" onclick="filterBySub('EP.58', event)">EP.58 입식 좌식</li>
+          <li class="sub-item" onclick="filterBySub('EP.59', event)">EP.59 수저 서랍</li>
+          <li class="sub-item" onclick="filterBySub('EP.60', event)">EP.60 수납 의자</li>
+          <li class="sub-item" onclick="filterBySub('EP.61', event)">EP.61 셀프 물 서비스</li>
+          <li class="sub-item" onclick="filterBySub('EP.62', event)">EP.62 2차 카페</li>
+          <li class="sub-item" onclick="filterBySub('EP.63', event)">EP.63 이열치열 삼계탕</li>
+          <li class="sub-item" onclick="filterBySub('EP.64', event)">EP.64 여름 보양식</li>
+          <li class="sub-item" onclick="filterBySub('EP.65', event)">EP.65 식사 공동체</li>
+        </ul>
+      </div>
+
+      <!-- Ⅴ. 학교·청소년 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅴ. 학교·청소년')">
+          <span>Ⅴ. 학교·청소년</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.66', event)">EP.66 학생 교복</li>
+          <li class="sub-item" onclick="filterBySub('EP.67', event)">EP.67 학생 공부시간</li>
+          <li class="sub-item" onclick="filterBySub('EP.68', event)">EP.68 대학 입시열</li>
+          <li class="sub-item" onclick="filterBySub('EP.69', event)">EP.69 수능 현장</li>
+          <li class="sub-item" onclick="filterBySub('EP.70', event)">EP.70 학교 급식</li>
+          <li class="sub-item" onclick="filterBySub('EP.71', event)">EP.71 K-급식 클라스</li>
+          <li class="sub-item" onclick="filterBySub('EP.72', event)">EP.72 방과 후 일상</li>
+          <li class="sub-item" onclick="filterBySub('EP.73', event)">EP.73 중학생의 하루</li>
+          <li class="sub-item" onclick="filterBySub('EP.74', event)">EP.74 조선시대 과거시험</li>
+          <li class="sub-item" onclick="filterBySub('EP.75', event)">EP.75 조선의 학교</li>
+        </ul>
+      </div>
+
+      <!-- Ⅵ. 한국의 역사 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅵ. 한국의 역사')">
+          <span>Ⅵ. 한국의 역사</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.76', event)">EP.76 한글의 우수성</li>
+          <li class="sub-item" onclick="filterBySub('EP.77', event)">EP.77 조선 500년</li>
+          <li class="sub-item" onclick="filterBySub('EP.78', event)">EP.78 조선인의 일상</li>
+          <li class="sub-item" onclick="filterBySub('EP.79', event)">EP.79 옛날 측간 문화</li>
+          <li class="sub-item" onclick="filterBySub('EP.80', event)">EP.80 옛 한양의 모습</li>
+          <li class="sub-item" onclick="filterBySub('EP.81', event)">EP.81 경복궁의 위치</li>
+          <li class="sub-item" onclick="filterBySub('EP.82', event)">EP.82 북촌 한옥마을</li>
+          <li class="sub-item" onclick="filterBySub('EP.83', event)">EP.83 전통가옥 한옥</li>
+          <li class="sub-item" onclick="filterBySub('EP.84', event)">EP.84 조선의 시계</li>
+          <li class="sub-item" onclick="filterBySub('EP.85', event)">EP.85 조선의 오일장</li>
+        </ul>
+      </div>
+
+      <!-- Ⅶ. 교통·기술·도시 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅶ. 교통·기술·도시')">
+          <span>Ⅶ. 교통·기술·도시</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.86', event)">EP.86 지하철 스크린도어</li>
+          <li class="sub-item" onclick="filterBySub('EP.87', event)">EP.87 지하철 환승 시스템</li>
+          <li class="sub-item" onclick="filterBySub('EP.88', event)">EP.88 통합 교통카드</li>
+          <li class="sub-item" onclick="filterBySub('EP.89', event)">EP.89 지하철 상가/편의점</li>
+          <li class="sub-item" onclick="filterBySub('EP.90', event)">EP.90 배달 오토바이</li>
+          <li class="sub-item" onclick="filterBySub('EP.91', event)">EP.91 공공 와이파이</li>
+          <li class="sub-item" onclick="filterBySub('EP.92', event)">EP.92 초고속 인터넷</li>
+          <li class="sub-item" onclick="filterBySub('EP.93', event)">EP.93 메가시티 서울</li>
+        </ul>
+      </div>
+
+      <!-- Ⅷ. 한국 여행·지리·감성 -->
+      <div class="category-group">
+        <div class="category-title" onclick="toggleMenu(this, 'Ⅷ. 여행·지리·감성')">
+          <span>Ⅷ. 여행·지리·감성</span>
+          <span class="arrow">▼</span>
+        </div>
+        <ul class="sub-menu">
+          <li class="sub-item" onclick="filterBySub('EP.94', event)">EP.94 한강 쉼터</li>
+          <li class="sub-item" onclick="filterBySub('EP.95', event)">EP.95 남산서울타워</li>
+          <li class="sub-item" onclick="filterBySub('EP.96', event)">EP.96 서울 주말 나들이</li>
+          <li class="sub-item" onclick="filterBySub('EP.97', event)">EP.97 서울 vs 부산</li>
+          <li class="sub-item" onclick="filterBySub('EP.98', event)">EP.98 숨은 국내 여행지</li>
+          <li class="sub-item" onclick="filterBySub('EP.99', event)">EP.99 국토 산지 비율</li>
+          <li class="sub-item" onclick="filterBySub('EP.100', event)">EP.100 한강의 기적</li>
+        </ul>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 메인 컨텐츠 영역 -->
+  <main>
+    <div class="top-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Search title, prompt, or tags..." oninput="handleSearch()">
+      </div>
+      <!-- 외부 CSV 불러오기 버튼 -->
+      <label class="file-input-btn">
+        📄 Load Custom CSV
+        <input type="file" id="csvFileInput" accept=".csv" style="display:none" onchange="loadExternalCSV(event)">
+      </label>
+    </div>
+
+    <!-- Masonry 갤러리 -->
+    <div class="masonry-grid" id="galleryGrid"></div>
+  </main>
+
+  <!-- 상세 내용 모달 -->
+  <div class="modal" id="imageModal">
+    <div class="modal-content">
+      <div class="modal-img-container">
+        <img id="modalImg" src="" alt="Detail view">
+      </div>
+      <div class="modal-info">
+        <div>
+          <button class="close-modal" onclick="closeModal()">✕</button>
+          
+          <!-- 영상 제목 -->
+          <h2 id="modalTitle" style="margin-bottom: 12px; font-size: 1.15rem; word-break: keep-all;"></h2>
+          
+          <!-- 3초 후킹 -->
+          <div style="margin-top: 12px;">
+            <label style="font-size: 0.8rem; color: var(--accent-color); font-weight: bold;">🔥 3초 후킹</label>
+            <div class="prompt-box" id="modalHook" style="color: #f3f4f6; font-weight: 600;"></div>
+          </div>
+
+          <!-- 60초 대본 -->
+          <div style="margin-top: 16px;">
+            <label style="font-size: 0.8rem; color: var(--text-muted); font-weight: bold;">📜 60초 대본</label>
+            <div class="prompt-box" id="modalScript" style="white-space: pre-wrap; line-height: 1.5; max-height: 250px; overflow-y: auto;"></div>
+          </div>
+        </div>
+        
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 12px;" id="modalTags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
