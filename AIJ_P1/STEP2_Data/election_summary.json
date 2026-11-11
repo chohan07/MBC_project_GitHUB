@@ -1,0 +1,366 @@
+{
+  "disclaimer": "가상 선거·교육용 시뮬레이션",
+  "is_synthetic": true,
+  "source_id": "SYNTHETIC-STEP2-v1.0",
+  "election": "2026 한빛시 시장 선거",
+  "election_date": "2026-11-20",
+  "timezone": "Asia/Seoul",
+  "electorate": 500000,
+  "total_ballots": 350000,
+  "turnout_rate_pct": 70.0,
+  "regions": 5,
+  "candidates": 3,
+  "stages": 10,
+  "steps": [
+    {
+      "step": 1,
+      "timestamp": "2026-11-20T19:00+09:00",
+      "counted_ballots": 34805,
+      "valid_votes": 34455,
+      "invalid_votes": 350,
+      "count_progress_pct": 9.9443,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 21120,
+          "vote_share_pct": 61.2973,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 8750,
+          "vote_share_pct": 25.3954,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 4585,
+          "vote_share_pct": 13.3072,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 12370,
+      "margin_percentage_points": 35.9019
+    },
+    {
+      "step": 2,
+      "timestamp": "2026-11-20T19:30+09:00",
+      "counted_ballots": 69655,
+      "valid_votes": 68955,
+      "invalid_votes": 700,
+      "count_progress_pct": 19.9014,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 40320,
+          "vote_share_pct": 58.4729,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 17500,
+          "vote_share_pct": 25.3789,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 11135,
+          "vote_share_pct": 16.1482,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 22820,
+      "margin_percentage_points": 33.094
+    },
+    {
+      "step": 3,
+      "timestamp": "2026-11-20T20:00+09:00",
+      "counted_ballots": 104550,
+      "valid_votes": 103500,
+      "invalid_votes": 1050,
+      "count_progress_pct": 29.8714,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 57600,
+          "vote_share_pct": 55.6522,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 26250,
+          "vote_share_pct": 25.3623,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 19650,
+          "vote_share_pct": 18.9855,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 31350,
+      "margin_percentage_points": 30.2899
+    },
+    {
+      "step": 4,
+      "timestamp": "2026-11-20T20:30+09:00",
+      "counted_ballots": 139490,
+      "valid_votes": 138090,
+      "invalid_votes": 1400,
+      "count_progress_pct": 39.8543,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 72960,
+          "vote_share_pct": 52.8351,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 35000,
+          "vote_share_pct": 25.3458,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 30130,
+          "vote_share_pct": 21.8191,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 37960,
+      "margin_percentage_points": 27.4893
+    },
+    {
+      "step": 5,
+      "timestamp": "2026-11-20T21:00+09:00",
+      "counted_ballots": 174460,
+      "valid_votes": 172710,
+      "invalid_votes": 1750,
+      "count_progress_pct": 49.8457,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 87040,
+          "vote_share_pct": 50.3966,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 43750,
+          "vote_share_pct": 25.3315,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 41920,
+          "vote_share_pct": 24.2719,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 43290,
+      "margin_percentage_points": 25.0651
+    },
+    {
+      "step": 6,
+      "timestamp": "2026-11-20T21:30+09:00",
+      "counted_ballots": 209475,
+      "valid_votes": 207375,
+      "invalid_votes": 2100,
+      "count_progress_pct": 59.85,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 99200,
+          "vote_share_pct": 47.836,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 55675,
+          "vote_share_pct": 26.8475,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 52500,
+          "vote_share_pct": 25.3165,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 43525,
+      "margin_percentage_points": 20.9885
+    },
+    {
+      "step": 7,
+      "timestamp": "2026-11-20T22:00+09:00",
+      "counted_ballots": 244535,
+      "valid_votes": 242085,
+      "invalid_votes": 2450,
+      "count_progress_pct": 69.8671,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 109440,
+          "vote_share_pct": 45.2073,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 71395,
+          "vote_share_pct": 29.4917,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 61250,
+          "vote_share_pct": 25.301,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 38045,
+      "margin_percentage_points": 15.7156
+    },
+    {
+      "step": 8,
+      "timestamp": "2026-11-20T22:30+09:00",
+      "counted_ballots": 279640,
+      "valid_votes": 276840,
+      "invalid_votes": 2800,
+      "count_progress_pct": 79.8971,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 117760,
+          "vote_share_pct": 42.5372,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 89080,
+          "vote_share_pct": 32.1774,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 70000,
+          "vote_share_pct": 25.2854,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 28680,
+      "margin_percentage_points": 10.3598
+    },
+    {
+      "step": 9,
+      "timestamp": "2026-11-20T23:00+09:00",
+      "counted_ballots": 314790,
+      "valid_votes": 311640,
+      "invalid_votes": 3150,
+      "count_progress_pct": 89.94,
+      "candidate_results": [
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 124160,
+          "vote_share_pct": 39.8408,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 108730,
+          "vote_share_pct": 34.8896,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 78750,
+          "vote_share_pct": 25.2695,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C01",
+      "leader_name": "이몽룡",
+      "margin_votes": 15430,
+      "margin_percentage_points": 4.9512
+    },
+    {
+      "step": 10,
+      "timestamp": "2026-11-20T23:30+09:00",
+      "counted_ballots": 350000,
+      "valid_votes": 346500,
+      "invalid_votes": 3500,
+      "count_progress_pct": 100.0,
+      "candidate_results": [
+        {
+          "candidate_id": "C02",
+          "name": "심청이",
+          "votes": 131000,
+          "vote_share_pct": 37.8066,
+          "rank": 1
+        },
+        {
+          "candidate_id": "C01",
+          "name": "이몽룡",
+          "votes": 128000,
+          "vote_share_pct": 36.9408,
+          "rank": 2
+        },
+        {
+          "candidate_id": "C03",
+          "name": "홍길동",
+          "votes": 87500,
+          "vote_share_pct": 25.2525,
+          "rank": 3
+        }
+      ],
+      "leader_id": "C02",
+      "leader_name": "심청이",
+      "margin_votes": 3000,
+      "margin_percentage_points": 0.8658
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "project": "AIJ_P1",
+    "election": "2026 한빛시 시장선거",
+    "data_type": "synthetic",
+    "final_step": 10,
+    "total_valid_votes": 346500,
+    "winner": "심청이",
+    "winner_votes": 131000,
+    "winner_vote_rate": 37.81,
+    "vote_margin": 3000,
+    "leader_change_steps": [
+        10
+    ]
+}

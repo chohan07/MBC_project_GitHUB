@@ -1,0 +1,24 @@
+﻿file,field,data_type,description,example
+candidates.csv,candidate_id,문자열,후보 고유 ID,C01
+candidates.csv,name,문자열,가상 후보명,이몽룡
+candidates.csv,party,문자열,가상 소속,한빛미래당
+regions.csv,region_id,문자열,지역 고유 ID,R01
+regions.csv,electorate,정수,선거인 수,110000
+regions.csv,voters,정수,해당 지역 투표자 수,77000
+regions.csv,turnout_rate,실수(%),voters / electorate × 100,70.0
+election_results.csv,row_id,문자열,기사 근거 참조 가능한 행 ID,S01-R01-C01
+election_results.csv,step,정수,시뮬레이션 단계(1~10),1
+election_results.csv,timestamp,ISO 8601,가상 KST 개표 기준시각,2026-11-20T19:00+09:00
+election_results.csv,region_id,문자열,지역 ID,R01
+election_results.csv,region,문자열,지역명,중앙구
+election_results.csv,candidate_id,문자열,후보 ID,C01
+election_results.csv,candidate_name,문자열,후보명,이몽룡
+election_results.csv,votes,정수,해당 후보·지역·단계 누적 득표,0
+election_results.csv,valid_votes,정수,해당 지역·단계 누적 유효표(후보 행마다 중복),0
+election_results.csv,invalid_votes,정수,해당 지역·단계 누적 무효표(후보 행마다 중복),0
+election_results.csv,counted_ballots,정수,valid_votes + invalid_votes,0
+election_results.csv,total_ballots,정수,해당 지역 최종 투표자 수,77000
+election_results.csv,vote_share_pct,실수(%),votes / valid_votes × 100,0.0
+election_results.csv,count_progress_pct,실수(%),counted_ballots / total_ballots × 100,0.0
+election_results.csv,source_id,문자열,내부 합성 데이터 출처 ID,SYNTHETIC-STEP2-v1.0
+election_results.csv,is_synthetic,불리언,합성 데이터 표시,True
