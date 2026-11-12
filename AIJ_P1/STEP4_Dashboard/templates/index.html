@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIJ_P1 | 가상 선거 개표 대시보드</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>2026 한빛시 시장 선거</h1>
+        <p>AIJ NEWSROOM | 가상 선거 개표 대시보드</p>
+        <strong>교육용 가상 선거 · 실제 선거 결과 아님</strong>
+    </header>
+
+    <main>
+
+<section id="step-control">
+    <h2>개표 단계 선택</h2>
+
+    <label for="step-select">조회할 개표 단계:</label>
+
+    <select id="step-select">
+        <option value="1">1단계</option>
+        <option value="2">2단계</option>
+        <option value="3">3단계</option>
+        <option value="4">4단계</option>
+        <option value="5">5단계</option>
+        <option value="6">6단계</option>
+        <option value="7">7단계</option>
+        <option value="8">8단계</option>
+        <option value="9">9단계</option>
+        <option value="10" selected>10단계 (최종)</option>
+    </select>
+
+    <p id="selected-step-info">
+        현재 조회 단계: 10단계
+    </p>
+</section>
+
+        <section>
+            <h2>개표 현황</h2>
+            <p>총 선거인 수: 500,000명</p>
+            <p>총 투표자 수: 350,000명</p>
+            <p>투표율: 70.0%</p>
+        </section>
+
+        <section>
+            <h2>후보별 득표 현황</h2>
+            <div id="candidate-results">
+                후보별 개표 데이터를 불러올 예정입니다.
+            </div>
+        </section>
+
+        <section>
+            <h2>지역별 개표 현황</h2>
+            <div id="region-results">
+                지역별 개표 데이터를 불러올 예정입니다.
+            </div>
+        </section>
+
+        <section>
+            <h2>개표 단계별 변화</h2>
+            <div id="vote-chart"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>데이터 출처: AIJ_P1 교육용 가상 선거 데이터</p>
+        <p>본 화면은 AI 데이터 저널리즘 교육용 시뮬레이션입니다.</p>
+    </footer>
+
+    <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
+<script src="/static/dashboard.js"></script>
+</body>
+</html>
