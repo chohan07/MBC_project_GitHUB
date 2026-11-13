@@ -73,5 +73,53 @@
 
     <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
 <script src="/static/dashboard.js"></script>
+
+<!-- STEP 5: WebSocket 개표 제어 영역 -->
+<section id="websocket-controls"
+         style="margin: 24px; padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;">
+
+    <h2>실시간 가상 선거 개표</h2>
+
+    <p>가상 선거 · 교육용 시뮬레이션</p>
+
+    <p>
+        연결 상태:
+        <strong id="ws-connection-status">연결 전</strong>
+    </p>
+
+    <p>
+        개표 단계:
+        <strong id="ws-current-step">0 / 10</strong>
+    </p>
+
+    <p>
+        재생 상태:
+        <strong id="ws-playback-status">대기 중</strong>
+    </p>
+
+    <button id="ws-start-btn" type="button">
+        ▶ 재생
+    </button>
+
+    <button id="ws-pause-btn" type="button">
+        ⏸ 일시정지
+    </button>
+
+    <button id="ws-resume-btn" type="button">
+        ▶ 이어서 재생
+    </button>
+
+    <button id="ws-reset-btn" type="button">
+        ↻ 초기화
+    </button>
+
+    <p id="ws-error-message"
+       role="alert"
+       style="color: red;"></p>
+
+</section>
+
 </body>
 </html>
